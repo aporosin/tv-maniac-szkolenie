@@ -6,6 +6,7 @@ import { PosterComponent } from './poster/poster.component';
 import {BookmarksModule} from '../bookmarks/bookmarks.module';
 import {BookmarksService} from '../bookmarks/bookmarks.service';
 import {FormsModule} from '@angular/forms';
+import { TvmazeService } from './tvmaze.service';
 
 @NgModule({
   imports: [
@@ -15,6 +16,6 @@ import {FormsModule} from '@angular/forms';
     FormsModule
   ],
   declarations: [SearchComponent, PosterComponent],
-  providers: [BookmarksService]
+  providers: [BookmarksService, TvmazeService]
 })
 export class TvModule { }
