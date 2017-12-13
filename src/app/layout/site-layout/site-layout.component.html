@@ -1,0 +1,16 @@
+<nav class="navbar is-warning" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <div class="navbar-menu">
+      <div class="navbar-start">
+        <a *ngFor="let item of menu"
+           [routerLink]="item.path"
+           routerLinkActive="is-active"
+           [routerLinkActiveOptions]="{exact: item.exact}"
+          class="navbar-item is-tab">{{item.label}}</a>
+      </div>
+    </div>
+  </div>
+</nav>
+<div class="container">
+  <router-outlet></router-outlet> <!-- dyrektywa do wysw komponentow - conf in app-routing.module.ts-->
+</div>
