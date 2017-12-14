@@ -188,4 +188,8 @@
       _embedded: Embedded;
     }
 
+    export interface ShowDetails extends Show {
+      _embedded: Embedded;
+    }
+
   }

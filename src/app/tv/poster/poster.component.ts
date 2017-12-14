@@ -1,11 +1,12 @@
-import {Component, Input, OnChanges, OnInit} from '@angular/core';
+import {ChangeDetectionStrategy, Component, Input, OnChanges, OnInit} from '@angular/core';
 import {Show} from '../tv.models';
 import {get} from 'lodash';
 
 @Component({
   selector: 'tv-poster',
   templateUrl: './poster.component.html',
-  styleUrls: ['./poster.component.scss']
+  styleUrls: ['./poster.component.scss'],
+  changeDetection: ChangeDetectionStrategy.OnPush // do not compare objects by property - detect changes when new objects is pushed
 })
 export class PosterComponent implements OnChanges {
 

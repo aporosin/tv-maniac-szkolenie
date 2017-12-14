@@ -4,6 +4,7 @@ import {Observable} from 'rxjs/Observable';
 import {namespace, Show, ShowResponse} from './tv.models';
 import Episode = namespace.Episode;
 import RootObject = namespace.RootObject;
+import ShowDetails = namespace.ShowDetails;
 
 @Injectable()
 export class TvmazeService {
@@ -18,9 +19,9 @@ export class TvmazeService {
       .map((response) => response.map(({show}) => show));
   }
 
-  getShow(id: any): Observable<RootObject> {
+  getShow(id: any): Observable<ShowDetails> {
     const episodesUrl = `${this.baseUrl}/shows/${id}?embed=episodes`;
-    return this.http.get<RootObject>(episodesUrl);
+    return this.http.get<ShowDetails>(episodesUrl);
       //.map((response) => response.show);
   }
 }

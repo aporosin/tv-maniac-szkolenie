@@ -9,6 +9,7 @@ import { Page404Component } from './page404/page404.component';
 import { SiteLayoutComponent } from './layout/site-layout/site-layout.component';
 import { ContactComponent } from './contact/contact.component';
 import {TvModule} from './tv/tv.module';
+import { EpisodisePipe } from './tv/episodise.pipe';
 
 
 @NgModule({

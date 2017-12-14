@@ -9,6 +9,8 @@ import {FormsModule} from '@angular/forms';
 import { TvmazeService } from './tvmaze.service';
 import { ShowDetailsComponent } from './show-details/show-details.component';
 import {RouterModule} from '@angular/router';
+import { EpisodisePipe } from './episodise.pipe';
+import {ShowDetailsResolver} from './show-details/show-details-resolver';
 
 @NgModule({
   imports: [
@@ -18,7 +20,7 @@ import {RouterModule} from '@angular/router';
     FormsModule,
     RouterModule
   ],
-  declarations: [SearchComponent, PosterComponent, ShowDetailsComponent],
-  providers: [BookmarksService, TvmazeService]
+  declarations: [SearchComponent, PosterComponent, ShowDetailsComponent, EpisodisePipe],
+  providers: [BookmarksService, TvmazeService, ShowDetailsResolver]
 })
 export class TvModule { }
