@@ -1,3 +1,11 @@
-<img [src]="posterUrl" alt="{{show.name}}" />
-<ng-content></ng-content>
-<h2 class="subtitle">{{show.name}}</h2>
+<ng-container *ngIf="show"> <!-- this is virtual html tag taht does not generate any tags but allows to add directives -->
+  <a routerLink="{{show.id}}">
+  <img [src]="posterUrl" alt="{{show.name}}" /></a>
+  <ng-content></ng-content>
+  <h2 class="subtitle">
+  <a routerLink="/tv/{{show.id}}">{{show.name}}</a> </h2>
+  <!--
+  routerlink - with trainling slash is absolute path (relative to app base url - so we need to add tv module)
+  -- without trainling slash - tv module will be added automatically so we jsut need {{show.id}}
+-->
+</ng-container>

@@ -1,4 +1,4 @@
-import {Component, Input, OnInit} from '@angular/core';
+import {Component, Input, OnChanges, OnInit} from '@angular/core';
 import {Show} from '../tv.models';
 import {get} from 'lodash';
 
@@ -7,7 +7,7 @@ import {get} from 'lodash';
   templateUrl: './poster.component.html',
   styleUrls: ['./poster.component.scss']
 })
-export class PosterComponent implements OnInit {
+export class PosterComponent implements OnChanges {
 
   @Input() show: Show;
   @Input() size = 'lg';
@@ -15,7 +15,7 @@ export class PosterComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit() {
+  ngOnChanges() {
 
     const sizesDist = {
       md: 'medium',
