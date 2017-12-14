@@ -10,6 +10,8 @@ import { SiteLayoutComponent } from './layout/site-layout/site-layout.component'
 import { ContactComponent } from './contact/contact.component';
 import {TvModule} from './tv/tv.module';
 import { EpisodisePipe } from './tv/episodise.pipe';
+import {LoggedInGuard} from './logged-in.guard';
+import { RoutingInProgressComponent } from './routing-in-progress/routing-in-progress.component';
 
 
 @NgModule({
@@ -18,14 +20,15 @@ import { EpisodisePipe } from './tv/episodise.pipe';
     HomeComponent,
     Page404Component,
     SiteLayoutComponent,
-    ContactComponent
+    ContactComponent,
+    RoutingInProgressComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     TvModule
   ],
-  providers: [Title],
+  providers: [Title, LoggedInGuard],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

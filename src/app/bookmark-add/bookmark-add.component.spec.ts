@@ -1,6 +1,9 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { BookmarkAddComponent } from './bookmark-add.component';
+import {BookmarksService} from '../bookmarks/bookmarks.service';
+import {HttpClientModule} from '@angular/common/http';
+import {show} from '../../mocks';
 
 describe('BookmarkAddComponent', () => {
   let component: BookmarkAddComponent;
@@ -8,7 +11,9 @@ describe('BookmarkAddComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ BookmarkAddComponent ]
+      declarations: [ BookmarkAddComponent ],
+      providers: [BookmarksService],
+      imports: [HttpClientModule]
     })
     .compileComponents();
   }));
@@ -16,6 +21,7 @@ describe('BookmarkAddComponent', () => {
   beforeEach(() => {
     fixture = TestBed.createComponent(BookmarkAddComponent);
     component = fixture.componentInstance;
+    component.show = show
     fixture.detectChanges();
   });
 

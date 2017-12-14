@@ -1,6 +1,8 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { BookmarkRemoveComponent } from './bookmark-remove.component';
+import {BookmarksService} from '../bookmarks/bookmarks.service';
+import {HttpClientModule} from '@angular/common/http';
 
 describe('BookmarkRemoveComponent', () => {
   let component: BookmarkRemoveComponent;
@@ -8,7 +10,9 @@ describe('BookmarkRemoveComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ BookmarkRemoveComponent ]
+      declarations: [ BookmarkRemoveComponent ],
+      providers: [BookmarksService],
+      imports: [HttpClientModule]
     })
     .compileComponents();
   }));

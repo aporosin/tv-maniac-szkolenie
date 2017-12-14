@@ -8,6 +8,11 @@
            [routerLinkActiveOptions]="{exact: item.exact}"
           class="navbar-item is-tab">{{item.label}}</a>
       </div>
+      <div class="navbar-end"> <!-- Shows rolling donut button when loading details page-->
+        <tv-routing-in-progress class="navbar-item">
+          <button class="is-danger button is-loading">Loading...</button>
+        </tv-routing-in-progress>
+      </div>
     </div>
   </div>
 </nav>

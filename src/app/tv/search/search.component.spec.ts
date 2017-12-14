@@ -4,6 +4,8 @@ import { SearchComponent } from './search.component';
 import {RouterTestingModule} from '@angular/router/testing';
 import {PosterComponent} from '../poster/poster.component';
 import {HttpClientModule} from '@angular/common/http';
+import {BookmarkAddComponent} from '../../bookmark-add/bookmark-add.component';
+import {BookmarkRemoveComponent} from '../../bookmark-remove/bookmark-remove.component';
 
 describe('SearchComponent', () => {
   let component: SearchComponent;
@@ -12,7 +14,7 @@ describe('SearchComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       imports: [RouterTestingModule, HttpClientModule],
-      declarations: [ SearchComponent, PosterComponent ]
+      declarations: [ SearchComponent, PosterComponent, BookmarkAddComponent, BookmarkRemoveComponent ]
     })
     .compileComponents();
   }));

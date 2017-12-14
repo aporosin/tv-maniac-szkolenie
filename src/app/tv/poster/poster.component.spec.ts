@@ -3,6 +3,7 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { PosterComponent } from './poster.component';
 import {RouterTestingModule} from '@angular/router/testing';
 import {Externals, Image, Links, Network, Rating, Schedule, Show, WebChannel} from '../tv.models';
+import {EpisodisePipe} from '../episodise.pipe';
 
 class Show1 implements Show {
   id: number;
@@ -34,7 +35,7 @@ describe('PosterComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       imports: [RouterTestingModule],
-      declarations: [ PosterComponent ]
+      declarations: [ PosterComponent, EpisodisePipe ]
     })
     .compileComponents();
   }));

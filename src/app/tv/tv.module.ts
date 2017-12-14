@@ -21,6 +21,7 @@ import {ShowDetailsResolver} from './show-details/show-details-resolver';
     RouterModule
   ],
   declarations: [SearchComponent, PosterComponent, ShowDetailsComponent, EpisodisePipe],
-  providers: [BookmarksService, TvmazeService, ShowDetailsResolver]
+  providers: [BookmarksService, TvmazeService, ShowDetailsResolver],
+  exports: [EpisodisePipe]
 })
 export class TvModule { }
