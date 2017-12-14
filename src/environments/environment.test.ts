@@ -5,6 +5,6 @@
 
 export const environment = {
   production: false,
-  dbUrl: 'http://localhost:3000/',
-  dbName: 'bookmarks'
+  dbUrl: 'http://serwer-testowy/',
+  dbName: 'bookmarks-test'
 };

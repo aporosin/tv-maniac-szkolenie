@@ -1,4 +1,5 @@
 <p>
   <button class="button is-primary" (click)="addToBookmarks()"
-   [disabled]="has()">Add</button>
+          [class.is-loading]="show.isLoading"
+          [disabled]="has()">Add</button>
 </p>

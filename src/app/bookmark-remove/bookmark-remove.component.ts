@@ -21,6 +21,6 @@ export class BookmarkRemoveComponent implements OnInit {
   }
 
   removeFromBookmarks() {
-    this.service.removeBookmark(this.show);
+    this.service.remove(this.show.id);
   }
 }

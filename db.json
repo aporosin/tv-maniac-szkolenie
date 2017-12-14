@@ -1,0 +1,269 @@
+{
+  "bookmarks": [
+    {
+      "id": 21920,
+      "url": "http://www.tvmaze.com/shows/21920/mountain-gorilla",
+      "name": "Mountain Gorilla",
+      "type": "Documentary",
+      "language": "English",
+      "genres": [
+        "Nature"
+      ],
+      "status": "Ended",
+      "runtime": 60,
+      "premiered": "2010-08-22",
+      "officialSite": "http://www.bbc.co.uk/programmes/b00rbvz2",
+      "schedule": {
+        "time": "20:00",
+        "days": [
+          "Sunday"
+        ]
+      },
+      "rating": {
+        "average": null
+      },
+      "weight": 0,
+      "network": {
+        "id": 37,
+        "name": "BBC Two",
+        "country": {
+          "name": "United Kingdom",
+          "code": "GB",
+          "timezone": "Europe/London"
+        }
+      },
+      "webChannel": null,
+      "externals": {
+        "tvrage": null,
+        "thetvdb": 184221,
+        "imdb": "tt2308448"
+      },
+      "image": {
+        "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/79/198150.jpg",
+        "original": "http://static.tvmaze.com/uploads/images/original_untouched/79/198150.jpg"
+      },
+      "summary": "<p><b>Mountain Gorilla</b> is a detailed, insightful portrayal of our endangered relative. Only discovered a century ago, mountain gorillas inhabit a fragile world. A small number of families cling to existence on the forested peaks of isolated volcanoes in three war-torn countries, surrounded on all sides by a growing human population. Using exclusive access and the latest technology, this extraordinary trilogy seeks to understand more about the lives, the history and the uncertain future of this charismatic species. Alongside captivating footage of the gorillas themselves, we meet the dedicated teams of vets, rangers, researchers and conservationists that all work together to raise awareness of this unique species – but their dedicated work will only succeed with the support of all those who share the land with them.</p>",
+      "updated": 1504502470,
+      "_links": {
+        "self": {
+          "href": "http://api.tvmaze.com/shows/21920"
+        },
+        "previousepisode": {
+          "href": "http://api.tvmaze.com/episodes/957490"
+        }
+      }
+    },
+    {
+      "id": 9709,
+      "url": "http://www.tvmaze.com/shows/9709/godzilla",
+      "name": "Godzilla",
+      "type": "Animation",
+      "language": "English",
+      "genres": [],
+      "status": "Ended",
+      "runtime": 30,
+      "premiered": "1978-09-09",
+      "officialSite": null,
+      "schedule": {
+        "time": "",
+        "days": []
+      },
+      "rating": {
+        "average": null
+      },
+      "weight": 0,
+      "network": {
+        "id": 1,
+        "name": "NBC",
+        "country": {
+          "name": "United States",
+          "code": "US",
+          "timezone": "America/New_York"
+        }
+      },
+      "webChannel": null,
+      "externals": {
+        "tvrage": null,
+        "thetvdb": 251812,
+        "imdb": null
+      },
+      "image": {
+        "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/33/84292.jpg",
+        "original": "http://static.tvmaze.com/uploads/images/original_untouched/33/84292.jpg"
+      },
+      "summary": "<p><i><b>\"Godzilla\"</b></i> is a 30-minute animated series co-produced between Hanna-Barbera Productionsand Toho Ltd. in 1978 and aired on NBC in the United States and TV Tokyo in Japan. The series is an animated adaptation of the Japanese <i>Godzilla</i> movies produced by Toho.</p><p>The series follows the adventures of a team of scientists on the <i>Calico</i>, a hydrofoil research vessel, headed by Captain Carl Majors. The rest of the crew include scientist Dr. Quinn Darien, her nephew Pete, and her research assistant Brock. Also along for the ride is Godzuki, the \"cowardly cousin\" of Godzilla and Pete's best friend, who has a lighthearted role in the show. Godzuki can <i>attempt</i> to fly using the small wings under his arms. Whenever Godzuki tries to breathe fire, he usually just coughs up smoke rings.</p>",
+      "updated": 1449573283,
+      "_links": {
+        "self": {
+          "href": "http://api.tvmaze.com/shows/9709"
+        },
+        "previousepisode": {
+          "href": "http://api.tvmaze.com/episodes/521127"
+        }
+      }
+    },
+    {
+      "id": 6238,
+      "url": "http://www.tvmaze.com/shows/6238/magilla-gorilla",
+      "name": "Magilla Gorilla",
+      "type": "Animation",
+      "language": "English",
+      "genres": [
+        "Comedy",
+        "Children"
+      ],
+      "status": "Ended",
+      "runtime": 30,
+      "premiered": "1964-01-14",
+      "officialSite": null,
+      "schedule": {
+        "time": "",
+        "days": []
+      },
+      "rating": {
+        "average": 6
+      },
+      "weight": 0,
+      "network": {
+        "id": 3,
+        "name": "ABC",
+        "country": {
+          "name": "United States",
+          "code": "US",
+          "timezone": "America/New_York"
+        }
+      },
+      "webChannel": null,
+      "externals": {
+        "tvrage": null,
+        "thetvdb": 76209,
+        "imdb": "tt0060004"
+      },
+      "image": {
+        "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/23/59990.jpg",
+        "original": "http://static.tvmaze.com/uploads/images/original_untouched/23/59990.jpg"
+      },
+      "summary": "<p>Magilla Gorilla was a gorilla for sale in Melvin Peebles' pet shop. Being a drain on finances, Magilla's price was marked down considerably, but he was invariably only purchased for a short time. The customers always ended up returning Magilla, forcing Peebles to refund their money.</p>",
+      "updated": 1456249796,
+      "_links": {
+        "self": {
+          "href": "http://api.tvmaze.com/shows/6238"
+        },
+        "previousepisode": {
+          "href": "http://api.tvmaze.com/episodes/371292"
+        }
+      },
+      "isLoading": true
+    },
+    {
+      "id": 21840,
+      "url": "http://www.tvmaze.com/shows/21840/mountain-gorilla-mission-critical",
+      "name": "Mountain Gorilla: Mission Critical",
+      "type": "Documentary",
+      "language": "English",
+      "genres": [
+        "Nature"
+      ],
+      "status": "Running",
+      "runtime": 60,
+      "premiered": "2016-10-09",
+      "officialSite": "http://channel.nationalgeographic.com/wild/mission-critical/galleries/mountain-gorilla/at/home-of-the-gorillas-2110244/",
+      "schedule": {
+        "time": "21:00",
+        "days": [
+          "Sunday"
+        ]
+      },
+      "rating": {
+        "average": null
+      },
+      "weight": 0,
+      "network": {
+        "id": 83,
+        "name": "National Geographic WILD",
+        "country": {
+          "name": "United States",
+          "code": "US",
+          "timezone": "America/New_York"
+        }
+      },
+      "webChannel": null,
+      "externals": {
+        "tvrage": null,
+        "thetvdb": null,
+        "imdb": null
+      },
+      "image": {
+        "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/78/196831.jpg",
+        "original": "http://static.tvmaze.com/uploads/images/original_untouched/78/196831.jpg"
+      },
+      "summary": "<p>In <i>Mountain Gorilla: Mission Critical</i>, National Geographic follows the world's last mountain gorillas.</p>",
+      "updated": 1476936252,
+      "_links": {
+        "self": {
+          "href": "http://api.tvmaze.com/shows/21840"
+        },
+        "previousepisode": {
+          "href": "http://api.tvmaze.com/episodes/954205"
+        }
+      },
+      "isLoading": true
+    },
+    {
+      "id": 16242,
+      "url": "http://www.tvmaze.com/shows/16242/garrisons-gorillas",
+      "name": "Garrison's Gorillas",
+      "type": "Scripted",
+      "language": "English",
+      "genres": [
+        "Drama",
+        "Adventure",
+        "War"
+      ],
+      "status": "Ended",
+      "runtime": 60,
+      "premiered": "1967-09-06",
+      "officialSite": null,
+      "schedule": {
+        "time": "07:30",
+        "days": [
+          "Tuesday"
+        ]
+      },
+      "rating": {
+        "average": null
+      },
+      "weight": 0,
+      "network": {
+        "id": 3,
+        "name": "ABC",
+        "country": {
+          "name": "United States",
+          "code": "US",
+          "timezone": "America/New_York"
+        }
+      },
+      "webChannel": null,
+      "externals": {
+        "tvrage": null,
+        "thetvdb": 77239,
+        "imdb": "tt0061254"
+      },
+      "image": {
+        "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/54/135600.jpg",
+        "original": "http://static.tvmaze.com/uploads/images/original_untouched/54/135600.jpg"
+      },
+      "summary": "<p>Inspired by the film \"The Dirty Dozen\", this series chronicles the adventures of a group of convicts recruited into the U.S. Army by the offer of a post-war parole. Commanded by West Point graduate, Lt. Garrison, the \"Gorillas\" function as commandos behind Nazi lines.</p>",
+      "updated": 1503974771,
+      "_links": {
+        "self": {
+          "href": "http://api.tvmaze.com/shows/16242"
+        },
+        "previousepisode": {
+          "href": "http://api.tvmaze.com/episodes/740641"
+        }
+      },
+      "isLoading": true
+    }
+  ]
+}

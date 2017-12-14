@@ -82,6 +82,7 @@
     summary: string;
     updated: number;
     _links: Links;
+    isLoading: boolean;
   }
 
   export interface ShowResponse {
