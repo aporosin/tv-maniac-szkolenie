@@ -34,7 +34,7 @@
       <!--</div>-->
         <div class="control">
           <tv-rating-input formControlName="rating"></tv-rating-input>
-          <p *ngIf="rating?.hasError('min')">Error in rating</p>
+          <p *ngIf="rating.hasError('min')">Error in rating</p>
         </div>
       </div>
     </form>

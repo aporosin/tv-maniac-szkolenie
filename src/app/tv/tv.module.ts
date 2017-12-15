@@ -12,6 +12,7 @@ import {RouterModule} from '@angular/router';
 import { EpisodisePipe } from './episodise.pipe';
 import {ShowDetailsResolver} from './show-details/show-details-resolver';
 import { RatingInputComponent } from './rating-input/rating-input.component';
+import { TvRoutingModule } from './tv-routing/tv-routing.module';
 
 @NgModule({
   imports: [
@@ -20,7 +21,8 @@ import { RatingInputComponent } from './rating-input/rating-input.component';
     BookmarksModule,
     FormsModule,
     ReactiveFormsModule,
-    RouterModule
+    RouterModule,
+    TvRoutingModule
   ],
   declarations: [SearchComponent, PosterComponent, ShowDetailsComponent, EpisodisePipe, RatingInputComponent],
   providers: [BookmarksService, TvmazeService, ShowDetailsResolver],

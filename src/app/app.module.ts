@@ -39,7 +39,6 @@ export function HttpLoaderFactory(http: HttpClient) {
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
     TvModule,
     FormsModule ,// needed for forms in contact component,
     // tłumaczenia
@@ -49,7 +48,8 @@ export function HttpLoaderFactory(http: HttpClient) {
         useFactory: HttpLoaderFactory,
         deps: [HttpClient]
       }
-    })
+    }),
+    AppRoutingModule
   ],
   providers: [Title, LoggedInGuard],
   bootstrap: [AppComponent]

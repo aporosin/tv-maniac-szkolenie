@@ -18,8 +18,6 @@ const routes: Routes = [
       data: { title: '123 Welcome to TV Maniac!'}},
     {path: 'contact', component: ContactComponent, data: {title: 'Contact with us!'}},
     // solution for slowly loading details: - resolve will
-    {path: 'tv/:id', component: ShowDetailsComponent, resolve: {show: ShowDetailsResolver}},
-    {path: 'tv', component: SearchComponent, data: {title: 'Search FOR TV SHOWS'}}
   ]
   },
   {path: '**', component: Page404Component, data: { title: '123 Page not found!'}}

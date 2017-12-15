@@ -59,4 +59,8 @@ export class SearchComponent implements OnInit {
   empty(): boolean {
     return this.shows.length == 0;
   }
+
+  get rating() {
+    return this.form.get('rating');
+  }
 }
