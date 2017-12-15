@@ -3,6 +3,7 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { SiteLayoutComponent } from './site-layout.component';
 import {RouterModule} from '@angular/router';
 import {RouterTestingModule} from '@angular/router/testing';
+import {RoutingInProgressComponent} from '../../routing-in-progress/routing-in-progress.component';
 
 describe('SiteLayoutComponent', () => {
   let component: SiteLayoutComponent;
@@ -11,7 +12,7 @@ describe('SiteLayoutComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       imports: [RouterTestingModule],
-      declarations: [ SiteLayoutComponent]
+      declarations: [ SiteLayoutComponent, RoutingInProgressComponent]
     })
     .compileComponents();
   }));

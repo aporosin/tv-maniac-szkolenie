@@ -12,6 +12,7 @@ import {TvModule} from './tv/tv.module';
 import { EpisodisePipe } from './tv/episodise.pipe';
 import {LoggedInGuard} from './logged-in.guard';
 import { RoutingInProgressComponent } from './routing-in-progress/routing-in-progress.component';
+import {FormsModule} from '@angular/forms';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { RoutingInProgressComponent } from './routing-in-progress/routing-in-pro
   imports: [
     BrowserModule,
     AppRoutingModule,
-    TvModule
+    TvModule,
+    FormsModule // needed for forms in contact component
   ],
   providers: [Title, LoggedInGuard],
   bootstrap: [AppComponent]
