@@ -13,6 +13,7 @@ import { EpisodisePipe } from './tv/episodise.pipe';
 import {LoggedInGuard} from './logged-in.guard';
 import { RoutingInProgressComponent } from './routing-in-progress/routing-in-progress.component';
 import {FormsModule} from '@angular/forms';
+import {EmailDomainValidator} from './contact/email-domain.validator';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import {FormsModule} from '@angular/forms';
     Page404Component,
     SiteLayoutComponent,
     ContactComponent,
-    RoutingInProgressComponent
+    RoutingInProgressComponent,
+    EmailDomainValidator
   ],
   imports: [
     BrowserModule,

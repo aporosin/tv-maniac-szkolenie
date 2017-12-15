@@ -9,13 +9,15 @@
         <input  id="email" type="text"
                 class="input" [class.is-danger]="emailRef.dirty && emailRef.invalid"
                 #emailRef="ngModel"
-                minlength="6" email required
+                minlength="6" email required tvEmailDomain
                 type="email" name="email"
-                [(ngModel)]="contactInfo.email" />
+                [(ngModel)]="contactInfo.email"
+                [ngModelOptions]="{updateOn: 'blur'}"/> <!-- Validate after input is left -->
       </div>
       <div class="help is-danger" *ngIf="emailRef.dirty && emailRef.invalid">
         <p *ngIf="emailRef.errors.required">Email is required!</p>
         <p *ngIf="emailRef.errors.email">Provide correct email</p>
+        <p *ngIf="emailRef.errors.emailDomain">Incorrect domain. Allowed: {{emailRef.errors.emailDomain?.allowedDomain}}</p>
         <p *ngIf="emailRef.errors.minlength">Provide more characters</p>
       </div>
     </div>
