@@ -1,60 +1,6 @@
 {
   "bookmarks": [
     {
-      "id": 21840,
-      "url": "http://www.tvmaze.com/shows/21840/mountain-gorilla-mission-critical",
-      "name": "Mountain Gorilla: Mission Critical",
-      "type": "Documentary",
-      "language": "English",
-      "genres": [
-        "Nature"
-      ],
-      "status": "Running",
-      "runtime": 60,
-      "premiered": "2016-10-09",
-      "officialSite": "http://channel.nationalgeographic.com/wild/mission-critical/galleries/mountain-gorilla/at/home-of-the-gorillas-2110244/",
-      "schedule": {
-        "time": "21:00",
-        "days": [
-          "Sunday"
-        ]
-      },
-      "rating": {
-        "average": null
-      },
-      "weight": 0,
-      "network": {
-        "id": 83,
-        "name": "National Geographic WILD",
-        "country": {
-          "name": "United States",
-          "code": "US",
-          "timezone": "America/New_York"
-        }
-      },
-      "webChannel": null,
-      "externals": {
-        "tvrage": null,
-        "thetvdb": null,
-        "imdb": null
-      },
-      "image": {
-        "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/78/196831.jpg",
-        "original": "http://static.tvmaze.com/uploads/images/original_untouched/78/196831.jpg"
-      },
-      "summary": "<p>In <i>Mountain Gorilla: Mission Critical</i>, National Geographic follows the world's last mountain gorillas.</p>",
-      "updated": 1476936252,
-      "_links": {
-        "self": {
-          "href": "http://api.tvmaze.com/shows/21840"
-        },
-        "previousepisode": {
-          "href": "http://api.tvmaze.com/episodes/954205"
-        }
-      },
-      "isLoading": true
-    },
-    {
       "id": 6238,
       "url": "http://www.tvmaze.com/shows/6238/magilla-gorilla",
       "name": "Magilla Gorilla",
@@ -103,6 +49,60 @@
         },
         "previousepisode": {
           "href": "http://api.tvmaze.com/episodes/371292"
+        }
+      },
+      "isLoading": true
+    },
+    {
+      "id": 21920,
+      "url": "http://www.tvmaze.com/shows/21920/mountain-gorilla",
+      "name": "Mountain Gorilla",
+      "type": "Documentary",
+      "language": "English",
+      "genres": [
+        "Nature"
+      ],
+      "status": "Ended",
+      "runtime": 60,
+      "premiered": "2010-08-22",
+      "officialSite": "http://www.bbc.co.uk/programmes/b00rbvz2",
+      "schedule": {
+        "time": "20:00",
+        "days": [
+          "Sunday"
+        ]
+      },
+      "rating": {
+        "average": null
+      },
+      "weight": 0,
+      "network": {
+        "id": 37,
+        "name": "BBC Two",
+        "country": {
+          "name": "United Kingdom",
+          "code": "GB",
+          "timezone": "Europe/London"
+        }
+      },
+      "webChannel": null,
+      "externals": {
+        "tvrage": null,
+        "thetvdb": 184221,
+        "imdb": "tt2308448"
+      },
+      "image": {
+        "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/79/198150.jpg",
+        "original": "http://static.tvmaze.com/uploads/images/original_untouched/79/198150.jpg"
+      },
+      "summary": "<p><b>Mountain Gorilla</b> is a detailed, insightful portrayal of our endangered relative. Only discovered a century ago, mountain gorillas inhabit a fragile world. A small number of families cling to existence on the forested peaks of isolated volcanoes in three war-torn countries, surrounded on all sides by a growing human population. Using exclusive access and the latest technology, this extraordinary trilogy seeks to understand more about the lives, the history and the uncertain future of this charismatic species. Alongside captivating footage of the gorillas themselves, we meet the dedicated teams of vets, rangers, researchers and conservationists that all work together to raise awareness of this unique species – but their dedicated work will only succeed with the support of all those who share the land with them.</p>",
+      "updated": 1504502470,
+      "_links": {
+        "self": {
+          "href": "http://api.tvmaze.com/shows/21920"
+        },
+        "previousepisode": {
+          "href": "http://api.tvmaze.com/episodes/957490"
         }
       },
       "isLoading": true
