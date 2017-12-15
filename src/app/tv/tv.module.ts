@@ -11,6 +11,7 @@ import { ShowDetailsComponent } from './show-details/show-details.component';
 import {RouterModule} from '@angular/router';
 import { EpisodisePipe } from './episodise.pipe';
 import {ShowDetailsResolver} from './show-details/show-details-resolver';
+import { RatingInputComponent } from './rating-input/rating-input.component';
 
 @NgModule({
   imports: [
@@ -21,7 +22,7 @@ import {ShowDetailsResolver} from './show-details/show-details-resolver';
     ReactiveFormsModule,
     RouterModule
   ],
-  declarations: [SearchComponent, PosterComponent, ShowDetailsComponent, EpisodisePipe],
+  declarations: [SearchComponent, PosterComponent, ShowDetailsComponent, EpisodisePipe, RatingInputComponent],
   providers: [BookmarksService, TvmazeService, ShowDetailsResolver],
   exports: [EpisodisePipe]
 })

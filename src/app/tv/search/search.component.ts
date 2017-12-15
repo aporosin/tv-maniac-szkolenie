@@ -25,7 +25,8 @@ export class SearchComponent implements OnInit {
     private formBuilderService: FormBuilder
     ) {
     this.form = this.formBuilderService.group({ // Validator needed so that we don't send requests for empty string ot just one letter
-      query: ['futura', [Validators.required, Validators.minLength(3)]]
+      query: ['futura', [Validators.required, Validators.minLength(3)]],
+      rating: [7, [Validators.min(5)]]
     });
 
     // listen to changes on search field
