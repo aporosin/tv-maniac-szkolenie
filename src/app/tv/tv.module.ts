@@ -5,7 +5,7 @@ import { HttpClientModule} from '@angular/common/http';
 import { PosterComponent } from './poster/poster.component';
 import {BookmarksModule} from '../bookmarks/bookmarks.module';
 import {BookmarksService} from '../bookmarks/bookmarks.service';
-import {FormsModule} from '@angular/forms';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { TvmazeService } from './tvmaze.service';
 import { ShowDetailsComponent } from './show-details/show-details.component';
 import {RouterModule} from '@angular/router';
@@ -18,6 +18,7 @@ import {ShowDetailsResolver} from './show-details/show-details-resolver';
     HttpClientModule,
     BookmarksModule,
     FormsModule,
+    ReactiveFormsModule,
     RouterModule
   ],
   declarations: [SearchComponent, PosterComponent, ShowDetailsComponent, EpisodisePipe],

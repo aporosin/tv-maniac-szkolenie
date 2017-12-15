@@ -23,16 +23,18 @@
       </div>
       </div>
     </div>
-    <form class="field"> <!-- Here it shoudl work with enter asit is a form -->
+    <!-- Reactive form - using FormBuilder -->
+    <form class="field" [formGroup]="form"> <!-- Here it shoudl work with enter asit is a form -->
       <div class="field is-grouped">
       <div class="control">
-        <input name="cosTam" type="search" class="input" [(ngModel)]="query">
+        <input name="cosTam" type="search" class="input is-fullwidth" formControlName="query">
       </div>
-      <div class="control">
-        <button class="button is-warning" (click)="search(query)">Search with Enter</button>
-      </div>
+      <!--<div class="control">-->
+        <!--<button class="button is-warning" (click)="search(query)">Search with Enter</button>-->
+      <!--</div>-->
       </div>
     </form>
+
     <div class="columns is-multiline">
       <div *ngFor="let show of shows" class="column is-4" [tvIsBookmarked]="show">
         <tv-poster [show]="show">
