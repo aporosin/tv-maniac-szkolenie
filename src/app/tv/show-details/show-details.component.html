@@ -1,0 +1,30 @@
+<div class="columns">
+  <tv-poster [show]="showDetails" size="lg" class="column is-3"></tv-poster>
+  <section class="column">
+    <h1 class="title">{{showDetails?.name}}</h1>
+    <div [innerHtml]="summary"></div>
+    <table class="table">
+      <thead>
+        <tr>
+          <td>number</td>
+          <td>name</td>
+          <td>duration</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let episode of showDetails?._embedded.episodes">
+          <!--<td>{{episode.season}} {{episode.number}}</td>-->
+          <td>{{episode | episodise}}</td>
+          <td>{{episode.name}} </td>
+          <td>{{episode.airtime}} </td>
+        </tr>
+        <tr *ngIf="!showDetails?._embedded.episodes || !showDetails?._embedded.episodes.length">
+          <td colspan="3">no episodes available</td>
+        </tr>
+      </tbody>
+    </table>
+
+    table>tr>td*5
+  </section>
+</div>
+
