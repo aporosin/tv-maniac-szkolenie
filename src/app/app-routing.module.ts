@@ -8,6 +8,7 @@ import {SearchComponent} from './tv/search/search.component';
 import {ShowDetailsComponent} from './tv/show-details/show-details.component';
 import {ShowDetailsResolver} from './tv/show-details/show-details-resolver';
 import {LoggedInGuard} from './logged-in.guard';
+import {SiteMenuModule} from './site-layout/site-menu/site-menu.module';
 
 const routes: Routes = [
   { path: '',
@@ -24,7 +25,11 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes),
+  SiteMenuModule.forChild([
+    {path: '', label: 'Strona główna', exact: true},
+    {path: '/contact', label: 'Kontakt', exact: true}
+  ])],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

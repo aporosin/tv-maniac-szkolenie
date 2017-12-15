@@ -27,7 +27,7 @@ const routes: Routes = [
   imports: [
     CommonModule,
     RouterModule.forChild(routes),
-    SiteMenuModule.forChild([{path: 'tv', label: "TV"}])
+    SiteMenuModule.forChild([{path: '/tv', label: "TV Series", exact: true}])
   ],
   declarations: []
 })

@@ -1,10 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-
-interface MenuItem {
-  path: string;
-  label: string;
-  exact?: boolean;
-}
+import {MenuItem} from '../../site-layout/site-menu.models';
+import {SiteMenuService} from '../../site-layout/site-menu.service';
 
 @Component({
   selector: 'tv-site-layout',
@@ -13,13 +9,16 @@ interface MenuItem {
 })
 export class SiteLayoutComponent implements OnInit {
 
-  menu: MenuItem[] = [
-    {path: '', label: 'Home', exact: true},
-    {path: '/tv', label: 'TV Shows'},
-    {path: '/contact', label: 'Contact'}
-  ];
+  menu: MenuItem[] = [];
+  //   [
+  //   {path: '', label: 'Home', exact: true},
+  //   {path: '/tv', label: 'TV Shows'},
+  //   {path: '/contact', label: 'Contact'}
+  // ];
 
-  constructor() { }
+  constructor() {
+    this.menu = SiteMenuService.getItems();
+  }
 
   ngOnInit() {
   }
