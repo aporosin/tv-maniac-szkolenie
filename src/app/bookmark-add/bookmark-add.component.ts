@@ -10,6 +10,8 @@ import {Bookmark} from '../bookmarks/bookmarks.models';
 })
 export class BookmarkAddComponent implements OnInit {
 
+  param = {value: 'world'};
+
   //@Input() bookmarkService: BookmarksService;
   @Input() show: Show;
 

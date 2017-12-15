@@ -14,6 +14,17 @@ import {LoggedInGuard} from './logged-in.guard';
 import { RoutingInProgressComponent } from './routing-in-progress/routing-in-progress.component';
 import {FormsModule} from '@angular/forms';
 import {EmailDomainValidator} from './contact/email-domain.validator';
+import {TranslateLoader, TranslateModule} from '@ngx-translate/core';
+import {HttpClient} from '@angular/common/http';
+import {TranslateHttpLoader} from '@ngx-translate/http-loader';
+
+export function ć(http: HttpClient) {
+  return new TranslateHttpLoader(http, './assets/i18n/', '.json');
+}
+
+export function HttpLoaderFactory(http: HttpClient) {
+  return new TranslateHttpLoader(http);
+}
 
 
 @NgModule({
@@ -30,7 +41,15 @@ import {EmailDomainValidator} from './contact/email-domain.validator';
     BrowserModule,
     AppRoutingModule,
     TvModule,
-    FormsModule // needed for forms in contact component
+    FormsModule ,// needed for forms in contact component,
+    // tłumaczenia
+    TranslateModule.forRoot({
+      loader: {
+        provide: TranslateLoader,
+        useFactory: HttpLoaderFactory,
+        deps: [HttpClient]
+      }
+    })
   ],
   providers: [Title, LoggedInGuard],
   bootstrap: [AppComponent]
